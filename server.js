@@ -3,8 +3,8 @@ const express = require('express');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const tiedot = require('./tiedot.json');
-const hinnat = require('./hinnat.json');
+const tiedot = require('./tiedot.JSON');
+const hinnat = require('./hinnat.JSON');
 
 
 app.get('/api/tiedot', (req, res) => {
