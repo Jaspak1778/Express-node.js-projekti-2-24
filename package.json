@@ -1,15 +1,28 @@
 {
-  "name": "jskurssinpalautus",
+  "name": "projekti224",
   "version": "1.0.0",
-  "description": "",
+  "description": "OmaExpressAPP",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Jani Pekkala",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jaspak1778/Express-node.js-projekti-2-24.git"
+  },
+  "keywords": [
+    "Node",
+    "express"
+  ],
+  "bugs": {
+    "url": "https://github.com/Jaspak1778/Express-node.js-projekti-2-24/issues"
+  },
+  "homepage": "https://github.com/Jaspak1778/Express-node.js-projekti-2-24#readme"
 }
