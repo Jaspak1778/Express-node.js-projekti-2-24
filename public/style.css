@@ -1,0 +1,127 @@
+.lmargin {
+    margin-left: 25%;
+    background-color: aquamarine;
+}
+
+.line1 {
+    display: inline;
+    padding-left: 15px;
+}
+
+button{
+    background-color: hsl(49, 87%, 48%); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 16px;
+    float:right;
+}
+
+@media screen and (max-width: 720px) {
+    button {
+    
+        background-color: hsl(49, 87%, 48%); 
+        border: none;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        font-size: 16px;
+        float: left;
+        margin-top: 5px;
+        margin-left:100px;
+        float:none;
+        display: block !important;
+        width: 50%;
+
+        
+    }
+}
+
+button:hover {
+    background-color:hsl(0, 0%, 100%);
+    color: #2a2525;
+  }
+
+.boli {
+    font-family: mv boli;
+}
+p {
+    font-family: Segoe UI Variable Small Semibold;
+}
+
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    font-family: Segoe UI Variable Small Semibold;
+  }
+
+h2, h3, h4 {
+    font-family: Segoe UI Variable Small Semibold;
+  }
+th{
+    font-size: large;
+    text-align: left;
+
+}  
+
+td {
+    text-align: left;
+    font-size: large;
+    color: #99aa92;
+  } 
+
+/* chatbotin tyylittelyt */
+
+#chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#chatbot-toggle {
+    background-color: hwb(36 12% 16% / 0.459);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 50px; /* Adjust icon size */
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chatbot {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 300px; /* Adjust as needed */
+    height: 400px; /* Adjust as needed */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s ease;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#weather-widget {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,5 @@
+[
+    {"id":1,"title":"Toimitusjohtaja","nimi":"Pekka","sukunimi":"Puulaaki","puhelin":"0500347662","email":"Puulapekka@gmail.com"},
+    {"id":2,"title":"Urheiluhieroja","nimi":"Jukka","sukunimi":"Möttönen","puhelin":"0443317688","email":"Mörköjukka67@hotmail.com"},
+    {"id":3,"title":"Urheiluhieroja","nimi":"Markku","sukunimi":"Lahtinen","puhelin":"0402136980","email":"Hieromarkku77@luukku.com"}
+]

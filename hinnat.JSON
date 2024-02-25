@@ -1,0 +1,3 @@
+[{"id":1,"service":"Kattavaselkä hieronta","price":"60e","durat":"60min"},
+{"id":2,"service":"Pää hieronta","price":"45e","durat":"45min"},
+{"id":3,"service":"Akuutti hieronta","price":"75e","durat":"max 60min"}]
