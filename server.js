@@ -2,9 +2,10 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
+const tiedot = require('./tiedot.json');
+const hinnat = require('./hinnat.json');
+
 const PORT = process.env.PORT || 3000;
-const tiedot = require('./public/tiedot.json');
-const hinnat = require('./public/hinnat.json');
 
 
 app.get('/api/tiedot', (req, res) => {
